@@ -37,6 +37,18 @@ const images = [
       <div class="mt-5 w-14 h-0.5 bg-amber-400 mx-auto"></div>
     </div>
 
+    <!-- Video tour -->
+    <div class="max-w-3xl mx-auto mb-10">
+      <video
+        controls
+        preload="none"
+        poster="/images/hero.jpg"
+        class="w-full rounded-2xl shadow-xl border border-slate-100"
+      >
+        <source src="/video/room-tour.mp4" type="video/mp4" />
+      </video>
+    </div>
+
     <!-- Photo masonry: mixed portrait/landscape shots, so no forced crop -->
     <div class="columns-1 sm:columns-2 lg:columns-3 gap-3 [column-fill:balance]">
       {images.map((img) => (
