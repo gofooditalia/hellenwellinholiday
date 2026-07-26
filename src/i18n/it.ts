@@ -3,6 +3,7 @@ import type { Translations } from './types';
 export const it: Translations = {
   nav: {
     gallery: 'Galleria',
+    reviews: 'Recensioni',
     booking: 'Prenota',
     location: 'Dove Siamo',
     prices: 'Prezzi',
@@ -18,6 +19,11 @@ export const it: Translations = {
   gallery: {
     title: 'La Casa',
     subtitle: 'Ambienti caldi e curati nel cuore della Sicilia',
+  },
+  reviews: {
+    title: 'Cosa dicono i nostri ospiti',
+    subtitle: 'Recensioni vere, lasciate su Google da chi ha già soggiornato qui',
+    cta: 'Leggi tutte le recensioni su Google',
   },
   booking: {
     title: 'Prenota il tuo soggiorno',

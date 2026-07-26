@@ -3,6 +3,7 @@ import type { Translations } from './types';
 export const en: Translations = {
   nav: {
     gallery: 'Gallery',
+    reviews: 'Reviews',
     booking: 'Book',
     location: 'Location',
     prices: 'Prices',
@@ -18,6 +19,11 @@ export const en: Translations = {
   gallery: {
     title: 'The House',
     subtitle: 'Warm, cared-for spaces in the heart of Sicily',
+  },
+  reviews: {
+    title: 'What our guests say',
+    subtitle: "Real reviews left on Google by guests who've stayed here",
+    cta: 'Read all reviews on Google',
   },
   booking: {
     title: 'Book your stay',

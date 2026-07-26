@@ -24,6 +24,7 @@ export interface FormTranslations {
 export interface Translations {
   nav: {
     gallery: string;
+    reviews: string;
     booking: string;
     location: string;
     prices: string;
@@ -38,6 +39,11 @@ export interface Translations {
   gallery: {
     title: string;
     subtitle: string;
+  };
+  reviews: {
+    title: string;
+    subtitle: string;
+    cta: string;
   };
   booking: {
     title: string;
