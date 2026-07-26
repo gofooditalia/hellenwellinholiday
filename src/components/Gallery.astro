@@ -9,7 +9,18 @@ interface Props {
 const { lang } = Astro.props;
 const tr = t(lang);
 
-const images = ['hero', 'living-room', 'bedroom-1', 'bathroom', 'exterior', 'sitting-nook'];
+const images = [
+  'hero',
+  'bedroom-2',
+  'bedroom-detail',
+  'living-room',
+  'kitchen',
+  'bathroom',
+  'sitting-nook',
+  'piano-corner',
+  'exterior',
+  'entryway',
+];
 ---
 
 <section id="galleria" class="py-20 lg:py-28 bg-white">
@@ -26,22 +37,21 @@ const images = ['hero', 'living-room', 'bedroom-1', 'bathroom', 'exterior', 'sit
       <div class="mt-5 w-14 h-0.5 bg-amber-400 mx-auto"></div>
     </div>
 
-    <!-- Photo grid -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+    <!-- Photo masonry: mixed portrait/landscape shots, so no forced crop -->
+    <div class="columns-1 sm:columns-2 lg:columns-3 gap-3 [column-fill:balance]">
       {images.map((img) => (
         <a
           href={`/images/${img}.jpg`}
-          class="glightbox group relative overflow-hidden rounded-xl block"
+          class="glightbox group relative overflow-hidden rounded-xl block mb-3 break-inside-avoid"
           data-gallery="hellenwellinholiday"
           data-description="Hellen Wellin Holiday — You are Welcome House"
-          style="aspect-ratio: 3/2;"
         >
           <img
             src={`/images/${img}.jpg`}
             alt="Hellen Wellin Holiday — You are Welcome House"
             loading="lazy"
             decoding="async"
-            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            class="w-full h-auto block transition-transform duration-500 group-hover:scale-105"
           />
           <div class="absolute inset-0 bg-black/0 group-hover:bg-black/25 transition-colors duration-300 flex items-center justify-center">
             <svg

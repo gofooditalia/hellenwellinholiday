@@ -85,5 +85,33 @@ const googleMapsUrl = 'https://maps.app.goo.gl/J9pANYBi5qWRWVV98';
         ></iframe>
       </div>
     </div>
+
+    <!-- Neighbourhood highlights -->
+    <div class="grid grid-cols-2 gap-3 mt-10 max-w-2xl mx-auto">
+      <figure class="rounded-2xl overflow-hidden shadow-md border border-sky-100">
+        <img
+          src="/images/chiesa-madre.jpg"
+          alt={lang === 'it' ? 'Chiesa Madre di San Cataldo' : 'Chiesa Madre, San Cataldo'}
+          loading="lazy"
+          decoding="async"
+          class="w-full h-48 object-cover"
+        />
+        <figcaption class="text-center text-xs text-slate-500 py-2">
+          {lang === 'it' ? 'La Chiesa Madre, a due passi' : 'The Chiesa Madre, just steps away'}
+        </figcaption>
+      </figure>
+      <figure class="rounded-2xl overflow-hidden shadow-md border border-sky-100">
+        <img
+          src="/images/torre-orologio.jpg"
+          alt={lang === 'it' ? "Torre Civica dell'Orologio, San Cataldo" : 'Clock Tower, San Cataldo'}
+          loading="lazy"
+          decoding="async"
+          class="w-full h-48 object-cover"
+        />
+        <figcaption class="text-center text-xs text-slate-500 py-2">
+          {lang === 'it' ? "La Torre dell'Orologio al tramonto" : 'The Clock Tower at sunset'}
+        </figcaption>
+      </figure>
+    </div>
   </div>
 </section>
