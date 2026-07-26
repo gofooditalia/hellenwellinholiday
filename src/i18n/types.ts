@@ -50,6 +50,8 @@ export interface Translations {
     beds: string;
     bathrooms: string;
     parking: string;
+    heating: string;
+    welcomeNote: string;
     spaces: {
       title: string;
       room1Name: string;
@@ -86,5 +88,6 @@ export interface Translations {
     tagline: string;
     contact: string;
     rights: string;
+    cin: string;
   };
 }

@@ -55,7 +55,7 @@ const homeHref = lang === 'it' ? '/' : '/en/';
 
     <!-- Bottom bar -->
     <div class="border-t border-slate-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-600">
-      <p>{tr.footer.rights}</p>
+      <p class="text-center sm:text-left">{tr.footer.rights} — {tr.footer.cin}</p>
       <div class="flex gap-4">
         <a href="/" class={['hover:text-slate-400 transition-colors', lang === 'it' ? 'text-slate-400' : ''].join(' ')}>IT</a>
         <span>|</span>

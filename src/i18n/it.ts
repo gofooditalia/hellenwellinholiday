@@ -31,12 +31,14 @@ export const it: Translations = {
     beds: '3 letti',
     bathrooms: '1 bagno',
     parking: 'Parcheggio gratuito',
+    heating: 'Riscaldamento elettrico',
+    welcomeNote: 'In questo alloggio tutti sono i benvenuti: nessuna discriminazione di genere, nazionalità o orientamento. In casa ci sarete solo tu e chi decidi di portare con te.',
     spaces: {
       title: 'Gli spazi',
       room1Name: 'Camera Matrimoniale',
       room1Desc: 'Al primo piano, luminosa e tranquilla.',
       room2Name: 'Camera Doppia',
-      room2Desc: 'Al secondo piano, con bagno privato.',
+      room2Desc: 'Al secondo piano, con bagno privato. Non essendoci un corridoio, si accede passando dalla camera al primo piano.',
     },
   },
   location: {
@@ -82,5 +84,6 @@ export const it: Translations = {
     tagline: 'Casa vacanze a San Cataldo, Sicilia',
     contact: 'Contatti',
     rights: '© 2026 Hellen Wellin Holiday. Tutti i diritti riservati.',
+    cin: 'CIN: IT085016C2SHWV6345',
   },
 };

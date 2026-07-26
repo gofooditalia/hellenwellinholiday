@@ -12,7 +12,7 @@ const tr = t(lang);
 
 const AIRBNB_URL = 'https://www.airbnb.it/rooms/1197900619513309871';
 
-const stats = [tr.booking.guests, tr.booking.bedrooms, tr.booking.beds, tr.booking.bathrooms, tr.booking.parking];
+const stats = [tr.booking.guests, tr.booking.bedrooms, tr.booking.beds, tr.booking.bathrooms, tr.booking.parking, tr.booking.heating];
 
 const spaces = [
   { name: tr.booking.spaces.room1Name, desc: tr.booking.spaces.room1Desc },
@@ -75,6 +75,14 @@ const spaces = [
           <p class="text-sm text-sky-300">{room.desc}</p>
         </div>
       ))}
+    </div>
+
+    <!-- Welcome note -->
+    <div class="flex items-start gap-3 bg-sky-800/30 border border-sky-800 rounded-xl px-5 py-4 mb-12">
+      <svg class="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+        <path d="M9.653 16.915l-.005-.003-.019-.01a20.759 20.759 0 01-1.162-.682 22.045 22.045 0 01-2.582-1.9C4.045 12.733 2 10.352 2 7.5 2 5.015 4.015 3 6.5 3c1.7 0 3.212.958 4 2.354A4.481 4.481 0 0114.5 3C16.985 3 19 5.015 19 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 01-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 01-.69.001l-.002-.001z" />
+      </svg>
+      <p class="text-sm text-sky-200">{tr.booking.welcomeNote}</p>
     </div>
 
     <!-- Contact form -->

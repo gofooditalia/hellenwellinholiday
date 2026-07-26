@@ -31,12 +31,14 @@ export const en: Translations = {
     beds: '3 beds',
     bathrooms: '1 bathroom',
     parking: 'Free parking',
+    heating: 'Electric heating',
+    welcomeNote: 'Everyone is welcome here: no discrimination based on gender, nationality or orientation. It will just be you and whoever you choose to bring.',
     spaces: {
       title: 'The spaces',
       room1Name: 'Double Bedroom',
       room1Desc: 'On the first floor, bright and quiet.',
       room2Name: 'Twin Bedroom',
-      room2Desc: 'On the second floor, with private bathroom.',
+      room2Desc: "On the second floor, with private bathroom. There's no hallway, so you reach it by passing through the first-floor bedroom.",
     },
   },
   location: {
@@ -82,5 +84,6 @@ export const en: Translations = {
     tagline: 'Holiday home in San Cataldo, Sicily',
     contact: 'Contact',
     rights: '© 2026 Hellen Wellin Holiday. All rights reserved.',
+    cin: 'CIN: IT085016C2SHWV6345',
   },
 };
