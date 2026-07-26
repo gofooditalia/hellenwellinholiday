@@ -22,8 +22,9 @@ export const it: Translations = {
   },
   reviews: {
     title: 'Cosa dicono i nostri ospiti',
-    subtitle: 'Recensioni vere, lasciate su Google da chi ha già soggiornato qui',
-    cta: 'Leggi tutte le recensioni su Google',
+    subtitle: 'Recensioni vere, lasciate da chi ha già soggiornato qui',
+    ctaGoogle: 'Leggi le recensioni su Google',
+    ctaAirbnb: 'Leggi le recensioni su Airbnb',
   },
   booking: {
     title: 'Prenota il tuo soggiorno',

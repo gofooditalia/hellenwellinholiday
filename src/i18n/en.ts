@@ -22,8 +22,9 @@ export const en: Translations = {
   },
   reviews: {
     title: 'What our guests say',
-    subtitle: "Real reviews left on Google by guests who've stayed here",
-    cta: 'Read all reviews on Google',
+    subtitle: "Real reviews left by guests who've stayed here",
+    ctaGoogle: 'Read reviews on Google',
+    ctaAirbnb: 'Read reviews on Airbnb',
   },
   booking: {
     title: 'Book your stay',

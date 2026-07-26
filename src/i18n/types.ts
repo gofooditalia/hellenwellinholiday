@@ -43,7 +43,8 @@ export interface Translations {
   reviews: {
     title: string;
     subtitle: string;
-    cta: string;
+    ctaGoogle: string;
+    ctaAirbnb: string;
   };
   booking: {
     title: string;
